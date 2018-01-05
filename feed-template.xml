@@ -7,33 +7,53 @@
  endIndix  indicates the number of results for this *paged* section of the feed 
 -->
 <endIndex>4</endIndex>
+
 <item sdImg="https://i.imgur.com/M5uZDl0.png" hdImg="https://i.imgur.com/M5uZDl0.png">
 <title>My-Hero-Academia Ep 1 - Izuku Midoriya: Origin</title>
 <contentId>10001</contentId>
-<contentType>Animation</contentType>
-<contentQuality>HD</contentQuality>
-<streamFormat>mp4</streamFormat>
-<media>
-<streamQuality>HD</streamQuality>
-<streamBitrate>1500</streamBitrate>
-<streamUrl>
-https://vk.com/doc221089190_445923809
-</streamUrl>
-</media>
+<component name = "Origin" extends = "Scene" >
+ 
+  <script type = "text/brightscript" >
+ 
+    <![CDATA[
+ 
+    sub init()
+      videocontent = createObject("RoSGNode", "ContentNode")
+ 
+      videocontent.title = "Ep 1 - Izuku Midoriya: Origin"
+      videocontent.streamformat = "mp4"
+      videocontent.url = "http://www.videokoo.com/embed/yE1YjTX6xSjg"
+ 
+      video = m.top.findNode("exampleVideo")
+      video.content = videocontent
+ 
+      video.setFocus(true)
+      video.control = "play"
+    end sub
+ 
+    ]]>
+ 
+  </script>
+ 
+  <children >
+ 
+    <Video id = "exampleVideo"/>
+ 
+  </children>
+ 
+</component>
 <synopsis>
-Izuku Midoriya desperately wants to be a hero, but he is one of the few in his generation born without a Quirk. Will meeting the number one hero, All Might, change his fate?
+Psychopathic killers are the basis for some must-watch TV, but what really makes them tick? Neuroscientist Jim Fallon talks about brain scans and genetic analysis that may uncover the rotten wiring in the nature (and nurture) of murderers. In a too-strange-for-fiction twist, he shares a fascinating family history that makes his work chillingly personal.
 </synopsis>
-<genres>Clip</genres>
-<runtime>1260</runtime>
 </item>
 <item sdImg="https://devtools.web.roku.com/videoplayer/images/DanGilbert.jpg" hdImg="https://devtools.web.roku.com/videoplayer/images/DanGilbert.jpg">
 <title>Dan Gilbert asks, Why are we happy?</title>
 <contentId>10002</contentId>
 <contentType>Talk</contentType>
-<contentQuality>HD</contentQuality>
+<contentQuality>SD</contentQuality>
 <streamFormat>mp4</streamFormat>
 <media>
-<streamQuality>HD</streamQuality>
+<streamQuality>SD</streamQuality>
 <streamBitrate>1500</streamBitrate>
 <streamUrl>
 http://video.ted.com/talks/podcast/DanGilbert_2004_480.mp4
@@ -49,10 +69,10 @@ Harvard psychologist Dan Gilbert says our beliefs about what will make us happy 
 <title>VS Ramachandran on your mind</title>
 <contentId>10003</contentId>
 <contentType>Talk</contentType>
-<contentQuality>HD</contentQuality>
+<contentQuality>SD</contentQuality>
 <streamFormat>mp4</streamFormat>
 <media>
-<streamQuality>HD</streamQuality>
+<streamQuality>SD</streamQuality>
 <streamBitrate>1500</streamBitrate>
 <streamUrl>
 http://video.ted.com/talks/podcast/VilayanurRamachandran_2007_480.mp4
