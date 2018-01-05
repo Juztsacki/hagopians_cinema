@@ -4,14 +4,14 @@
 -->
 <banner_ad sd_img="https://i.imgur.com/5fXddUV.png" hd_img="https://i.imgur.com/5fXddUV.png"/>
 <category title="Cartoons And Animations" description="Where you can watch your favorite animations!" sd_img="https://i.imgur.com/5fXddUV.png" hd_img="https://i.imgur.com/5fXddUV.png">
-<categoryLeaf title="Cartoons" description="" feed="https://github.com/Juztsacki/hagopians_cinema/blob/master/feed-template.xml"/>
-<categoryLeaf title="Animations" description="" feed="https://devtools.web.roku.com/videoplayer/xml/globalissues.xml"/>
+<categoryLeaf title="Cartoons" description="" feed="https://raw.githubusercontent.com/Juztsacki/hagopians_cinema/master/feed-template.xml"/>
+<categoryLeaf title="Animations" description="" feed="https://raw.githubusercontent.com/Juztsacki/hagopians_cinema/master/feed-template.xml"/>
 </category>
 <category title="Movies" description="Where you can watch your favorite movies" sd_img="https://i.imgur.com/O50XFoL.png">
-<categoryLeaf title="Movies" description="" feed=""/>
+<categoryLeaf title="Movies" description="" feed="https://raw.githubusercontent.com/Juztsacki/hagopians_cinema/master/feed-template.xml"/>
 </category>
 <category title="History And Nature" description="TED Talks on Design" sd_img="https://i.imgur.com/2dsk8tf.png" hd_img="https://i.imgur.com/2dsk8tf.png">
-<categoryLeaf title="History" description="" feed=""/>
-<categoryLeaf title="Nature" description="" feed=""/>
+<categoryLeaf title="History" description="" feed="https://raw.githubusercontent.com/Juztsacki/hagopians_cinema/master/feed-template.xml"/>
+<categoryLeaf title="Nature" description="" feed="https://raw.githubusercontent.com/Juztsacki/hagopians_cinema/master/feed-template.xml"/>
 </category>
 </categories>
