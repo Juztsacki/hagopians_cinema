@@ -22,9 +22,9 @@
  
       videocontent.title = "Ep 1 - Izuku Midoriya: Origin"
       videocontent.streamformat = "mp4"
-      videocontent.url = "http://www.videokoo.com/embed/yE1YjTX6xSjg"
+      videocontent.url = "https://om165.cdn.oose.io/play/a201801044MY7BlUVR14/video.mp4?rate=512k&attach=%5Bwww.watchmha.%5DEP_1_DUB_HD).mp4"
  
-      video = m.top.findNode("exampleVideo")
+      video = m.top.findNode("episodeOrigin")
       video.content = videocontent
  
       video.setFocus(true)
@@ -37,7 +37,7 @@
  
   <children >
  
-    <Video id = "exampleVideo"/>
+    <Video id = "episodeOrigin"/>
  
   </children>
  
